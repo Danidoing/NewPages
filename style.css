@@ -1,0 +1,171 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(160deg, #dc9b0e, #604123);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tombol {
+  display: flex;
+  gap: 1.3rem;
+}
+.text-box {
+  width: 60%;
+}
+.tombol .btn1 {
+  border: none;
+  padding: 5px;
+  width: 147px;
+  background-color: transparent;
+  transition: 0.3s all ease-in-out;
+  position: relative;
+  border-radius: 20px;
+}
+.tombol .btn1:hover {
+  color: #fff;
+  background-color: #b2600e;
+}
+
+span {
+  color: #663709;
+}
+
+.link {
+  display: flex;
+  transition: 0.3s all ease-in-out;
+}
+ul li a {
+  border-radius: 10px;
+}
+
+ul li a:hover {
+  background-color: #dc9b0e;
+  border-radius: 10px;
+  color: white;
+}
+.link-coba {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 0.5rem;
+  background-color: #dc9b0e;
+  border-radius: 15px;
+  transition: 0.2s all ease-in-out;
+  cursor: pointer;
+}
+
+.link-coba:hover {
+  background-color: #e6b449;
+}
+
+.text-box .link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 130px;
+  background-color: #663709;
+  padding: 10px;
+  border-radius: 15px;
+}
+.text-box .link a {
+  text-decoration: none;
+  color: white;
+}
+
+.tombol .btn2 {
+  border: none;
+  background-color: #b2600e;
+  padding: 5px;
+  width: 147px;
+  border-radius: 20px;
+  color: white;
+}
+
+@media (max-width: 991px) {
+  .tombol {
+    display: none;
+  }
+}
+
+.box .text-box p {
+  width: 500px;
+}
+#hero {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  height: 100vh;
+}
+
+@media (max-width: 992px) {
+  .box .text-box p {
+    width: 300px;
+  }
+  .box img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* #hero {
+    padding-top: 50px;
+  }
+  .box {
+    text-align: justify;
+  }
+  .box .text-box p {
+    width: 100%;
+  }
+  .box .text-box .link {
+    margin: auto;
+  }
+  .box .text-box .judul {
+    width: 100%;
+    font-size: 20px;
+  } */
+
+  #hero {
+    height: 115vh;
+  }
+  .img-hero img {
+    width: 200px;
+    bottom: 0;
+    right: 59;
+    left: 100px;
+  }
+  .row h1,
+  h2,
+  p {
+    text-align: center;
+  }
+  .link-coba {
+    margin: auto;
+  }
+}
+
+@media (max-width: 360px) {
+  #hero {
+    height: 115vh;
+  }
+  .img-hero img {
+    width: 200px;
+    bottom: 0;
+    left: 90px;
+  }
+}
+
+@media (width: 768px) {
+  #hero {
+    height: 150vh;
+  }
+  h1 {
+    width: 100%;
+    text-align: center;
+  }
+  .img-hero img {
+    width: 300px;
+    bottom: 0;
+    left: 220px;
+  }
+}
